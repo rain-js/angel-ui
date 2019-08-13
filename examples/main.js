@@ -3,6 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import demoBlock from './components/demo-block'
+import AngelUI from '../packages'
+import '../packages/theme-default/lib/index.css'
+
+Vue.component('demo-block', demoBlock)
+Vue.use(AngelUI)
 
 Vue.config.productionTip = false
 
