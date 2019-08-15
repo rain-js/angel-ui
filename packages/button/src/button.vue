@@ -5,7 +5,7 @@
     :disabled="disabled"
     :class="[
       type ? 'gl-button--' + type : '',
-      size ? 'gl-button--size' + size : '',
+      size ? 'gl-button--size-' + size : '',
       {
         'is-plain': plain,
         'is-disabled': disabled,
@@ -28,7 +28,6 @@
       },
       size: {
         type: String,
-        default: 'default'
       },
       icon: {
         type: String,

@@ -45,7 +45,6 @@
       &:disabled {
          opacity: 0.3;
          background: var(--button-default-fill);
-         border: var(--border-base);
          color: var(--button-default-color);
       }
       &:active {
@@ -53,7 +52,6 @@
          outline: none;
        }
       @when plain {
-        border: 1px solid var(--color-primary);
         &:hover,
         &:focus {
            background: var(--color-white);
@@ -62,7 +60,6 @@
          }
         &:disabled {
            background: var(--button-default-fill);
-           border: 1px solid var(--color-primary);
            color: var(--button-default-color);
         }
       }

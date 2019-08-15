@@ -1,0 +1,35 @@
+[
+  {
+    "name": "开发指南",
+    "data": [
+      {
+        "name": "介绍",
+        "path": "/intro"
+      },
+      {
+        "name": "安装",
+        "path": "/installation"
+      },
+      {
+        "name": "快速开始",
+        "path": "/quickstart"
+      },
+      {
+        "name": "更新日志",
+        "path": "/updatelog"
+      }
+    ]
+  },
+  {
+    "name": "组件",
+    "children": {
+      "sub-name": "基础组件",
+      "data": [
+        {
+          "name": "Button 按钮",
+          "path": "/button"
+        }
+      ]
+    }
+  }
+]
