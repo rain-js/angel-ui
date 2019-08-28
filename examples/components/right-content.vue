@@ -16,6 +16,7 @@ export default {
     box-sizing: border-box;
     padding: 20px 20px 50px 20px;
     width: calc(100% - 260px);
-    background: white;
+    min-height: calc(100vh - 60px);
+    background: #0e141f;
   }
 </style>

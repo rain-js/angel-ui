@@ -9,7 +9,7 @@
           </div>
         </div>
       </div>
-    <span class="docs-trans docs-demo__triangle" @click="toggle">{{isExpand ? '隐藏代码' : '显示代码'}}</span>
+    <!-- <span class="docs-trans docs-demo__triangle" @click="toggle">{{isExpand ? '隐藏代码' : '显示代码'}}</span> -->
   </div>
 </template>
 
@@ -19,7 +19,7 @@
   export default {
     data() {
       return {
-        isExpand: false
+        isExpand: true  // 默认展开代码块
       };
     },
     methods: {
@@ -40,8 +40,9 @@
     height: auto;
     box-sizing: border-box;
     font-size: 14px;
-    background-color: #F7F7F7;
-    border: 1px solid #e2ecf4;
+    background-color: #242f42;
+    border-radius: 0 0 4px 4px;
+    border: 2px solid #374051;
     border-top: none;
     pre code {
       font-family: Consolas,Menlo,Courier,monospace;

@@ -14,8 +14,8 @@ export default {
     top: 0;
     width: 100%;
     height: 65px;
-    background: white;
-    border-bottom: 1px solid #eee;
+    background-color: #0e141f;
+    border-bottom: 1px solid #29303d;
     z-index: 99999;
   }
 </style>

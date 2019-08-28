@@ -26,8 +26,8 @@ export default {
     bottom: 0;
     box-sizing: border-box;
     width: 260px;
-    padding: 35px 30px 0 30px;
-    background: white;
-    border-right: 1px solid #eee;
+    padding: 35px 0 0 30px;
+    background: #0e141f;
+    border-right: 1px solid #29303d;
   }
 </style>
