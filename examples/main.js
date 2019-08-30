@@ -6,11 +6,14 @@ import router from './router'
 import demoBlock from './components/demo-block'
 import AngelUI from '../packages'
 import '../packages/theme-default/lib/index.css'
+import icon from './icon.json'
 
 Vue.component('demo-block', demoBlock)
 Vue.use(AngelUI)
 
 Vue.config.productionTip = false
+
+Vue.prototype.$icon = icon
 
 /* eslint-disable no-new */
 new Vue({

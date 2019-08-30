@@ -24,3 +24,10 @@ Angel-UI 使用开源的 iconfont 作为图标库。
 ```
 :::
 
+### 图标列表
+<ul class="icon-list">
+  <li v-for="icon in $icon">
+    <i :class=`gl-icon-${icon}`></i>
+    <span>{{ `gl-icon-${icon}` }}</span>
+  </li>
+</ul>
